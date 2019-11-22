@@ -29,4 +29,5 @@ If we want to develop an application in Angular 8, then we need to configure and
 
 
 Link: https://www.udemy.com/course/the-complete-guide-to-angular-2/
+Information Reference: https://www.c-sharpcorner.com/article/learn-angular-8-step-by-step-in-10-days-day-1/
 
