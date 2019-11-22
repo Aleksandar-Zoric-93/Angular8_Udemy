@@ -21,10 +21,10 @@ See link below for further information.
 ### Install Prerequisites for Angular8 
 If we want to develop an application in Angular 8, then we need to configure and install the below prerequisites for the environments of the Angular 8 –
 
-    * Latest Node JS i.e. LTA 10.16 or above
-    * Install Typescript version 3.4 or above
-    * Need to install any IDE like Visual Studio Code or Microsoft Visual Studio 2015 or above
-    * Also, required to install Angular CLI to run the angular project 
+    Latest Node JS i.e. LTA 10.16 or above
+    Install Typescript version 3.4 or above
+    Need to install any IDE like Visual Studio Code or Microsoft Visual Studio 2015 or above
+    Also, required to install Angular CLI to run the angular project 
 
 
 
