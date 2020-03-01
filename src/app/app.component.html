@@ -1,14 +1,19 @@
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
-         <h3> This is my app </h3>
-         <hr>
-         <app-servers></app-servers>
-         <hr>
-         <app-alerts></app-alerts>
-         <hr>
-         <app-user></app-user>
+            <h3> This is my app </h3>
+            <hr>
+            <app-servers></app-servers>
+            <hr>
+            <app-alerts></app-alerts>
+            <hr>
+            <app-user></app-user>
         </div>
     </div>
+    <hr>
+    <!--<button class="btn btn-primary" (click)="showSecret = !showSecret">Display Details</button>-->
+    <button class="btn btn-primary" (click)="onToggleDetails()">Display Details</button>
+    <p *ngIf="showSecret">Secret Password = tuna</p>
+    <div *ngFor="let logItem of log" [ngStyle]="{backgroundColor: logItem >= 5 ? 'blue' : 'transparent'}"
+        [ngClass]="{'white-text': logItem >= 5}">{{ logItem }}</div>
 </div>
-
